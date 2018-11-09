@@ -195,3 +195,31 @@ p {
 }
 
 
+#fix {
+    position: relative;
+    top: -37%;
+}
+
+#fix2 {
+    position: relative;
+    top: -29%;
+}
+#fix3 {
+    position: relative;
+    top: -19%;
+}
+
+#fix4 {
+    position: relative;
+    top: -28%;
+}
+
+#fix5 {
+    position: relative;
+    top: -18%;
+}
+
+#fix6{
+    position: relative;
+    top: -19%;
+}
