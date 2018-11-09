@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 15px;
+    border-bottom: 10px solid white;
+    color: white;
+    margin-bottom: auto;
+}
+
+h1,h2 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+.circle {
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #c125f9, #fb91ff);
+    height: 100px;
+    width: 100px;
+}
+
+.circle2s {
+    background-image: linear-gradient(to right, #c125f9, #fb91ff);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.circle3s {
+    background-image: linear-gradient(to right, #c125f9, #fb91ff);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.circle4s {
+    background-image: linear-gradient(to right, #c125f9, #fb91ff);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+
+.pill {
+    background-image: linear-gradient(to right, #ff7700, #ffbb00);
+    width: 50px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.red-pill-container {
+    top: -31%;
+    position: relative;
+    display: flex;
+}
+
+.red-pill {
+
+    background-image: linear-gradient(to right, #d84343, #e81414);
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.phases-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    margin: auto;
+}
+
+
+.yellow-pill-container {
+    display: flex;
+    transform: rotate(51deg);
+    position: relative;
+    bottom: 37%;
+
+}
+
+.yellow-pill {
+
+    background-image: linear-gradient(to right, #fff200, #f7f17e);
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.green-pill-container {
+    display: flex;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 44%;
+}
+
+.green-pill {
+    background-image: linear-gradient(to right, #37ff00, #82f263);
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.blue-pill-container {
+    display: flex;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 50%;
+}
+
+.blue-pill {
+    background-image: linear-gradient(to right, #7e97fc, #0235ff);
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.indigo-pill {
+    background-image: linear-gradient(to right, #b793f2, #6302ff);
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
+.violet-pill {
+    background-image: linear-gradient(to right, #eca5f7, #dc00ff);
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
+.f4-red-pill-container {
+    top: -26%;
+    position: relative;
+    display: flex;
+}
+.f4-yellow-pill-container {
+    display: flex;
+    transform: rotate(51deg);
+    position: relative;
+    bottom: 32%;
+}
+
+.f4-green-pill-container {
+    display: flex;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 36%;
+}
+
+.f4-blue-pill-container {
+    display: flex;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 42%;
+}
+
+.f4-indigo-pill-container {
+    display: flex;
+    transform: rotate(116deg);
+    position: relative;
+    bottom: 47%;
+}
+
+.f4-violet-pill-container {
+    display: flex;
+    transform: rotate(158deg);
+    position: relative;
+    bottom: 52%;
+}
+
+
